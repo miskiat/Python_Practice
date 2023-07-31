@@ -11,3 +11,6 @@ print(age)
 # input(use to read value from the terminal)
 name = input ("What is your name? ")
 print("Hello " + name)
+
+# Type Conversion
+input ("Enter your birth year: ")
