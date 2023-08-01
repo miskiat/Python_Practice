@@ -13,4 +13,6 @@ name = input ("What is your name? ")
 print("Hello " + name)
 
 # Type Conversion
-input ("Enter your birth year: ")
+birth_year = input ("Enter your birth year: ")
+age = 2020 - birth_year
+print(age)
