@@ -13,9 +13,9 @@
 # print("Hello " + name)
 
 # Type Conversion
-birth_year = input ("Enter your birth year: ")
-age = 2023 - int(birth_year)
-print(age)
+# birth_year = input ("Enter your birth year: ")
+# age = 2023 - int(birth_year)
+# print(age)
 
 # float(number with a decimal point)
 
@@ -24,5 +24,7 @@ print(age)
 # bool() for converting to a boolean
 # str() or converting to a string
 
- first = input("First" )
- second = input("Second" )
+first = input("First: ")
+second = input("Second: ")
+sum = int(first) + int(second)
+print(sum)
