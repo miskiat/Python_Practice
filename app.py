@@ -24,7 +24,12 @@
 # bool() for converting to a boolean
 # str() or converting to a string
 
+# first = input("First: ")
+# second = input("Second: ")
+# sum = int(first) + int(second)
+# print(sum)
+
 first = input("First: ")
 second = input("Second: ")
-sum = int(first) + int(second)
+sum = float(first) + float(second)
 print(sum)
