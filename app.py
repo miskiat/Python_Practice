@@ -41,5 +41,12 @@ print(course.upper())
 print(course)
 print(course.lower())
 
-# find(is use to see if a method contain a character or sequence of characters)
+# find method(is use to see if a method contain a character or sequence of characters)
 print(course.find('y'))
+print(course.find('Y'))
+print(course.find('for'))
+
+# replace method
+print(course.replace('for','4'))
+
+
