@@ -29,7 +29,12 @@
 # sum = int(first) + int(second)
 # print(sum)
 
-first = float(input("First: "))
-second = float(input("Second: "))
-sum = first+ second
-print( "Sum : " + str(sum))
+# first = float(input("First: "))
+# second = float(input("Second: "))
+# sum = first+ second
+# print( "Sum : " + str(sum))
+
+# String
+# when a function is part of an object is reffered to an METHOD
+course ="Python for Beginners"
+print (course.upper())
