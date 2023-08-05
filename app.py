@@ -38,3 +38,4 @@
 # when a function is part of an object is reffered to an METHOD
 course ="Python for Beginners"
 print (course.upper())
+print(course)
