@@ -35,6 +35,7 @@
 # print( "Sum : " + str(sum))
 
 # String
+# Stings can not be changed once they are created (they are inmovable)
 # when a function is part of an object is reffered to an METHOD
 course ="Python for Beginners"
 print(course.upper())
@@ -46,7 +47,16 @@ print(course.find('y'))
 print(course.find('Y'))
 print(course.find('for'))
 
+
+
+
 # replace method
 print(course.replace('for','4'))
+
+# in operator
+print('Python' in course)
+
+
+# Arithmetic Operators
 
 
