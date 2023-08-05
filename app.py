@@ -37,5 +37,9 @@
 # String
 # when a function is part of an object is reffered to an METHOD
 course ="Python for Beginners"
-print (course.upper())
+print(course.upper())
 print(course)
+print(course.lower())
+
+# find(is use to see if a method contain a character or sequence of characters)
+print(course.find('y'))
