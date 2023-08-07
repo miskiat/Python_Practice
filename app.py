@@ -58,11 +58,11 @@ print('Python' in course)
 
 
 # Arithmetic Operators
-print(10+3)
-print(10-3)
-print(10*3)
-print(10/3)
-print(10//3)
-print(10%3)
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+print(10 / 3)
+print(10 // 3)
+print(10 % 3)
 
 
