@@ -37,39 +37,45 @@
 # String
 # Stings can not be changed once they are created (they are inmovable)
 # when a function is part of an object is reffered to an METHOD
-course ="Python for Beginners"
-print(course.upper())
-print(course)
-print(course.lower())
+# course ="Python for Beginners"
+# print(course.upper())
+# print(course)
+# print(course.lower())
 
-# find method(is use to see if a method contain a character or sequence of characters)
-print(course.find('y'))
-print(course.find('Y'))
-print(course.find('for'))
+# find method(is used to see if a method contain a character or sequence of characters)
+# print(course.find('y'))
+# print(course.find('Y'))
+# print(course.find('for'))
 
 
 
 
 # replace method
-print(course.replace('for','4'))
+# print(course.replace('for','4'))
 
 # in operator
-print('Python' in course)
+# print('Python' in course)
 
 
 # Arithmetic Operators
-print(10 + 3)
-print(10 - 3)
-print(10 * 3)
-print(10 / 3)
-print(10 // 3)
-print(10 % 3)
-print(10 ** 3)
-x = 10
-x = x + 3
-x += 3
-x -= 3
-x *= 3
+# print(10 + 3)
+# print(10 - 3)
+# print(10 * 3)
+# print(10 / 3)
+# print(10 // 3)
+# print(10 % 3)
+# print(10 ** 3)
+
+# (argumented assignment operator)
+# x = 10
+# x = x + 3
+# x += 3
+# x -= 3
+# x *= 3
+
+# Operator Precedence
+m = 10 + 3 * 2
+m = (10 + 3) * 2
 
 
 
