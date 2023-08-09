@@ -74,8 +74,67 @@
 # x *= 3
 
 # Operator Precedence
-m = 10 + 3 * 2
-m = (10 + 3) * 2
+# m = 10 + 3 * 2
+# print(m)
+# m = (10 + 3) * 2
+# print(m)
+
+# Comparison Operators
+# x = 3 > 2
+# print(x)
+# x = 3 >= 2
+# print(x)
+# x = 3 == 2
+# print(x)
+# x = 3 != 2
+# print(x)
+
+# Logical Operator(use to build complex rules and conditions)
+# and (both)
+# or (at least one)
+# not (inverses any value )
+
+price = 25
+print(price > 10 and price < 30)
+print(price > 10 or price < 30)
+print(price > 10 )
+print( not price < 30)
+
+# if statements(to make decision)
+temperature = 25
+
+if temperature > 30:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif temperature > 20:
+    print("It's a nice day")
+elif temperature > 10:
+    print("It's a bit cold")
+else:
+    print("It's cold")
+print("Done")
+
+# Exercise
+weight = int(input("Weight: "))
+unit = input("(K)g or (L)bs: ")
+if unit.upper() == "K":
+    converted =weight / 0.45
+    print("Weight in Lbs: " + str(converted))
+else:
+    converted = weight * 0.45
+    print("Weight in Kgs: " + str(converted))
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
