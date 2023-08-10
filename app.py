@@ -124,7 +124,11 @@ else:
     converted = weight * 0.45
     print("Weight in Kgs: " + str(converted))
 
-
+# while loops
+i = 1
+while i <= 5:
+    print(i)
+    i = i + 1
 
 
 
