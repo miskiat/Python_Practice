@@ -101,34 +101,38 @@ print(price > 10 )
 print( not price < 30)
 
 # if statements(to make decision)
-temperature = 25
-
-if temperature > 30:
-    print("It's a hot day")
-    print("Drink plenty of water")
-elif temperature > 20:
-    print("It's a nice day")
-elif temperature > 10:
-    print("It's a bit cold")
-else:
-    print("It's cold")
-print("Done")
-
-# Exercise
-weight = int(input("Weight: "))
-unit = input("(K)g or (L)bs: ")
-if unit.upper() == "K":
-    converted =weight / 0.45
-    print("Weight in Lbs: " + str(converted))
-else:
-    converted = weight * 0.45
-    print("Weight in Kgs: " + str(converted))
+# temperature = 25
+#
+# if temperature > 30:
+#     print("It's a hot day")
+#     print("Drink plenty of water")
+# elif temperature > 20:
+#     print("It's a nice day")
+# elif temperature > 10:
+#     print("It's a bit cold")
+# else:
+#     print("It's cold")
+# print("Done")
+#
+# # Exercise
+# weight = int(input("Weight: "))
+# unit = input("(K)g or (L)bs: ")
+# if unit.upper() == "K":
+#     converted =weight / 0.45
+#     print("Weight in Lbs: " + str(converted))
+# else:
+#     converted = weight * 0.45
+#     print("Weight in Kgs: " + str(converted))
 
 # while loops
 i = 1
 while i <= 5:
     print(i)
     i = i + 1
+
+    # Lists(to represent a lists of objects(nmaes/number)
+names = ["mko", "misky", "biola", "badmus", "kike"]
+print(names)
 
 
 
