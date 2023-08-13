@@ -132,7 +132,11 @@ while i <= 5:
 
     # Lists(to represent a lists of objects(nmaes/number)
 names = ["mko", "misky", "biola", "badmus", "kike"]
-print(names)
+names[0] = "mk"
+print(names[0])
+print(names[-1])
+print(names[-2])
+
 
 
 
