@@ -94,11 +94,11 @@
 # or (at least one)
 # not (inverses any value )
 
-price = 25
-print(price > 10 and price < 30)
-print(price > 10 or price < 30)
-print(price > 10 )
-print( not price < 30)
+# price = 25
+# print(price > 10 and price < 30)
+# print(price > 10 or price < 30)
+# print(price > 10 )
+# print( not price < 30)
 
 # if statements(to make decision)
 # temperature = 25
@@ -125,33 +125,50 @@ print( not price < 30)
 #     print("Weight in Kgs: " + str(converted))
 
 # while loops
-i = 1
-while i <= 5:
-    print(i)
-    i = i + 1
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i = i + 1
 
     # Lists(to represent a lists of objects(nmaes/number)
-names = ["mko", "misky", "biola", "badmus", "kike"]
-names[0] = "mk"
-print(names[0])
-print(names[-1])
-print(names[-2])
-print(names[0:3 ])
-print(names)
+# names = ["mko", "misky", "biola", "badmus", "kike"]
+# names[0] = "mk"
+# print(names[0])
+# print(names[-1])
+# print(names[-2])
+# print(names[0:3 ])
+# print(names)
+#
+# # List Methods
+# numbers =[1, 2, 3, 4, 5]
+# numbers.append(6)
+# print(numbers)
 
-# List Methods
-numbers =[1, 2, 3, 4, 5]
-numbers.append(6)
+# numbers.insert(0,-1)
+# print(numbers)
+#
+# numbers.remove(3)
+# print(numbers)
+# numbers.append(6)
+# print( 1 in numbers)
+# print( 10 in numbers)
+# print(len(numbers))
+
+# For Loops
+numbers = [1, 2, 3, 4, 5]
 print(numbers)
 
-numbers.insert(0,-1)
-print(numbers)
+# (for loop)
+for item in numbers:
+    print(item)
 
-numbers.remove(3)
-print(numbers)
-numbers.append(6)
-print( 1 in numbers)
-print( 10 in numbers)
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i = i + 1
+
+
+
 
 
 
