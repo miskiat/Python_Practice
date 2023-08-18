@@ -151,6 +151,7 @@ numbers.remove(3)
 print(numbers)
 numbers.append(6)
 print( 1 in numbers)
+print( 10 in numbers)
 
 
 
