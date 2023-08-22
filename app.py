@@ -155,8 +155,8 @@
 # print(len(numbers))
 
 # For Loops
-numbers = [1, 2, 3, 4, 5]
-print(numbers)
+# numbers = [1, 2, 3, 4, 5]
+# print(numbers)
 
 # (for loop)
 # for item in numbers:
@@ -169,14 +169,18 @@ print(numbers)
 #
 # The range() Function (use to generate a sequence of numbers)
 
-numbers = range(5)
-print(numbers)
+# numbers = range(5)
+# print(numbers)
+#
+# numbers = range(5, 10, 2)
+# for number in range(5):
+#     print(number)
 
-numbers = range(5, 10, 2)
-for number in range(5):
-    print(number)
 
-
+# Tuples
+numbers = (1, 2, 3, 3)
+# numbers.count(3)
+numbers.index(3)
 
 
 
